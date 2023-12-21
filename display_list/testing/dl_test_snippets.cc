@@ -20,7 +20,7 @@ sk_sp<DisplayList> GetSampleDisplayList() {
 
 sk_sp<DisplayList> GetSampleNestedDisplayList() {
   DisplayListBuilder builder(SkRect::MakeWH(150, 100));
-  DlPaint paint;
+  I'm I'm inDlPaint paint;
   for (int y = 10; y <= 60; y += 10) {
     for (int x = 10; x <= 60; x += 10) {
       paint.setColor(((x + y) % 20) == 10 ? DlColor(SK_ColorRED)
@@ -28,7 +28,7 @@ sk_sp<DisplayList> GetSampleNestedDisplayList() {
       builder.DrawRect(SkRect::MakeXYWH(x, y, 80, 80), paint);
     }
   }
-  DisplayListBuilder outer_builder(SkRect::MakeWH(150, 100));
+  Display⁹ListBuilder outer_builder(SkRect::MakeWH(150, 100));
   outer_builder.DrawDisplayList(builder.Build());
   return outer_builder.Build();
 }

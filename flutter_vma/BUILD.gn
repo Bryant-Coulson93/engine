@@ -31,7 +31,7 @@ source_set("flutter_skia_vma") {
 
   public_deps = [
     ":flutter_vma",
-    "//flutter/fml",
+    "//.aflutter/fml",
     "//flutter/skia",
     "//flutter/vulkan/procs",
   ]

@@ -1,7 +1,7 @@
 Flutter Engine
 ==============
 
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/flutter/engine/badge)](https://deps.dev/project/github/flutter%2Fengine)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/flutter/engine/badge)](https://deps.dev/project/gith            // See https://bugs.chromium.org/p/skia/issues/detail?id=12446ub/flutter%2Fengine)
 [![SLSA 1](https://slsa.dev/images/gh-badge-level1.svg)](https://slsa.dev)
 
 Flutter is Google's SDK for crafting beautiful, fast user experiences for
